@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bakesale POS</title>
+<style>
+  :root { --ink:#1c2530; --soft:#4a5563; --bg:#f6f7f5; --card:#fff; --line:#dde1e0; --accent:#2f6f62; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; line-height:1.6; }
+  header, main, footer { max-width:760px; margin:0 auto; padding:16px; }
+  header { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); }
+  .brand { font-weight:700; font-size:19px; }
+  nav a { margin-left:18px; color:var(--soft); text-decoration:none; font-weight:600; font-size:14px; }
+  nav a:hover { color:var(--accent); }
+  h1 { font-size:clamp(28px,5vw,38px); line-height:1.15; margin:40px 0 14px; }
+  p { color:var(--soft); max-width:62ch; }
+  .lede { color:var(--ink); font-size:17px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:24px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  .card h3 { margin:0 0 4px; font-size:15px; }
+  .card p { margin:0; font-size:13.5px; }
+  a { color:var(--accent); }
+  footer { color:var(--soft); font-size:13.5px; padding-bottom:48px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Bakesale POS</div>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a></nav>
+</header>
+<main>
+  <h1>Bakesale POS</h1>
+  <p class="lede">Billing, kitchen tickets, inventory and reporting for bakeries and cafés, built to run on one machine per shop, with an optional Google Drive backup so a day's data survives even if that machine doesn't.</p>
+  <div class="grid">
+    <div class="card"><h3>Billing &amp; KOT</h3><p>Counter sales, kitchen order tickets and receipt printing.</p></div>
+    <div class="card"><h3>Stock &amp; recipes</h3><p>Ingredient stock, purchases and recipe-based costing.</p></div>
+    <div class="card"><h3>Reporting</h3><p>Sales, P&amp;L and closing-stock reports per location.</p></div>
+    <div class="card"><h3>Drive backup</h3><p>An hourly backup, optionally mirrored to a Google Drive account you connect.</p></div>
+  </div>
+  <p style="margin-top:32px">Read our <a href="privacy.html">Privacy Policy</a>. Contact: <a href="mailto:abinbbabu100@gmail.com">abinbbabu100@gmail.com</a></p>
+</main>
+<footer>Bakesale POS is point-of-sale software for bakeries and cafés.</footer>
+</body>
+</html>
