@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bakesale POS - Billing software for bakeries, cafés and restaurants</title>
 <meta name="description" content="Bakesale POS: billing, kitchen tickets, stock, front office, accounts and automatic Google Drive backup for bakeries, cafés and restaurants.">
+<link rel="icon" type="image/png" href="logo.png">
 <style>
   :root {
     --ink:#231f2e; --soft:#5b5670; --bg:#fff8f1; --card:#ffffff; --line:#f1e3d3;
@@ -20,7 +21,8 @@
   .nav { position:sticky; top:0; z-index:20; background:rgba(255,248,241,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
   .nav .wrap { display:flex; align-items:center; justify-content:space-between; height:64px; }
   .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:20px; text-decoration:none; color:var(--ink); }
-  .logo { width:34px; height:34px; border-radius:10px; background:linear-gradient(135deg,var(--orange),var(--pink)); display:grid; place-items:center; font-size:18px; }
+  .logo { width:40px; height:40px; border-radius:10px; object-fit:cover; box-shadow:0 2px 8px rgba(35,31,46,.15); }
+  .hero-logo { width:84px; height:84px; border-radius:20px; box-shadow:0 10px 30px rgba(35,31,46,.3); border:3px solid rgba(255,255,255,.7); margin-bottom:18px; display:block; }
   .nav a.link { margin-left:22px; text-decoration:none; color:var(--soft); font-weight:600; font-size:14px; }
   .nav a.link:hover { color:var(--orange); }
 
@@ -96,7 +98,7 @@
 <body>
 
 <div class="nav"><div class="wrap">
-  <a class="brand" href="index.html"><span class="logo">🥐</span> Bakesale POS</a>
+  <a class="brand" href="index.html"><img class="logo" src="logo.png" alt="Bakesale logo"> Bakesale POS</a>
   <div>
     <a class="link hide" href="#features">Features</a>
     <a class="link hide" href="#screens">Screens</a>
@@ -107,6 +109,7 @@
 
 <div class="hero"><div class="wrap">
   <div>
+    <img class="hero-logo" src="logo-512.png" alt="Bakesale logo">
     <span class="pill">Billing · Stock · Accounts · Backup</span>
     <h1>One POS for your whole bakery, café and restaurant.</h1>
     <p>Bakesale POS handles counter billing, kitchen order tickets, stock, front office and accounts in one desktop app that runs on your own machine, and can back your data up to Google Drive every hour.</p>
